@@ -1,5 +1,6 @@
 <template>
-	<h1>This is Index module!</h1>
+	<h1>This is Index module!!!!</h1>
+  <img src="../../assets/logo.png" height="200" width="200">
 </template>
 
 <script></script>

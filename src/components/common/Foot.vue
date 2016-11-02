@@ -1,5 +1,5 @@
 <template>
-	<h1>This is Foot!</h1>
+	<h1>This is Foot!!!!</h1>
 </template>
 
 <script></script>

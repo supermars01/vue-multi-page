@@ -35,6 +35,8 @@ module.exports = {
         include: projectRoot,
         exclude: /node_modules/
       },
+      { test: /\.css$/, loader: 'style!css!autoprefixer'},
+      { test: /\.scss$/, loader: 'style!css!sass?sourceMap'},
       {
         test: /\.json$/,
         loader: 'json'
@@ -60,8 +62,5 @@ module.exports = {
         }
       }
     ]
-  },
-  vue: {
-    loaders: utils.cssLoaders()
   }
 }
